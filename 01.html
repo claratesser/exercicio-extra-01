@@ -1,0 +1,30 @@
+<script>
+    /*Fazer um programa que leia um número e forneça a tratativa adequado conforme segue:
+Se número é maior ou igual 2 e menor que 8 deve dobrar o número;
+Se número é maior ou igual 8 e menor que 15 deve elevar a potência 2 o número;
+Se número é maior ou igual 15 e menor que 90 deve triplicar o número.
+O programa deve exibir o número lido e resultado depois da tratativa em linhas diferentes.*/ 
+
+//ENTRADA 
+
+    const numero = Number(prompt(`Informe um numero`));
+
+//PROCESSAMENTO
+
+    let resultado;
+
+    if (numero >= 2 && numero < 8){
+        resultado = numero * 2;
+    } else if (numero < 15){
+        resultado = numero * numero;
+    } else if (numero < 90){
+        resultado = numero * 3;
+    } else {
+        resultado = numero;
+    }
+
+//SAIDA
+
+    document.write(`O valor do numero inicialmente era ${numero} <br> E apos a operação ficou ${resultado}`);0000000000000000000000000000000000,
+
+</script>
